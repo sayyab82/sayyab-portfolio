@@ -19,7 +19,7 @@ function Contact() {
 
 const [loading, setLoading] = useState(false);
 
-const [status, setStatus] = useState("");
+// const [status, setStatus] = useState("");
 
   const contactInfo = [
     {
@@ -82,7 +82,7 @@ const [status, setStatus] = useState("");
 
   setLoading(true);
 
-  setStatus("");
+  // setStatus("");
 
 
 
@@ -98,7 +98,7 @@ const [status, setStatus] = useState("");
 
       setLoading(false);
 
-      setStatus("success");
+      // setStatus("success");
 
       form.current.reset();
 
@@ -110,7 +110,7 @@ const [status, setStatus] = useState("");
 
       setLoading(false);
 
-      setStatus("error");
+      // setStatus("error");
 
     });
 
